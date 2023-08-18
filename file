@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .navbar {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: orange;
+  }
+  
+  .company-name {
+    text-transform: uppercase;
+  }
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="company-name">DINESH ENTERPRISE</div>
+  <div class="nav-links">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Carrier</a>
+    <a href="#">Category</a>
+      <a href="#">Contact Us</a>
+  </div>
+</div>
+
+</body>
+</html>
